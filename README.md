@@ -1,5 +1,7 @@
 📁 Hello Spring - 요점 정리
 
+
+
 01. 프로젝트 환경설정
 
 프로젝트 생성
@@ -94,6 +96,12 @@ MappingJackson2HttpMessageConverter → JSON 변환
 
 비지니스 요구사항 정리
 
+-데이터: 회원ID, 이름
+
+-기능: 회원 등록, 조회
+
+-아직 데이터 저장소가 선정되지 않음(가상의 시나리오)
+
 📌 일반적인 웹 애플리케이션 계층 구조
 
 ![Image](https://github.com/user-attachments/assets/c796075b-1cd7-4695-b0de-17be60ff5046)
@@ -115,3 +123,7 @@ MappingJackson2HttpMessageConverter → JSON 변환
 향후 DB(RDB, NoSQL 등)로 전환하기 쉽도록 설계됨
 
 개발 초기에는 메모리 기반 저장소(MemoryMemberRepository)를 사용
+
+1. 회원 객체 만들기
+2. 회원 리포지토리 인터페이스 만들기
+3. 회원 리포지토리 메모리 구현체
