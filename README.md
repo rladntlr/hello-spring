@@ -138,3 +138,5 @@ MappingJackson2HttpMessageConverter → JSON 변환
 
  @AfterEach 를 사용하면 각 테스트가 종료될 때 마다 이 기능을 실행한다.
  여기서는 메모리 DB에 저장된 데이터를 삭제한다.
+
+회원 서비스 개발
